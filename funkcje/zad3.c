@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int isperfect(int n) {
-  int sum = 0;
+  int suma = 0;
   for(int i = 1; i < n; i++) {
     if (n % i == 0)
-      sum += i;
+      suma += i;
   }
-  if (sum == n) {
+  if (suma == n) {
     return 1;
   } else {
     return 0;
