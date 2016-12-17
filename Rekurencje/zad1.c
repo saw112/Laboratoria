@@ -13,3 +13,4 @@ int main() {
       else
       return podstawa * nk(podstawa, wykładnik - 1);
     }
+    
